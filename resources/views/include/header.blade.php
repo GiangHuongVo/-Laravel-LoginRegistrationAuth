@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <!--This config function is from config/ folder, and name from config/app.php -->
-    <a class="navbar-brand" href="#">{{config('app.name')}}</a>
+  <div class="container-fluid">   
+    <a class="navbar-brand" href="#">
+      <x-logo test="" customStyle=""/>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>

@@ -4,6 +4,7 @@
 @section('title', 'Register Page')
 <!--extends from <body> @yeild('content') of layout.blade.php-->
 @section('content')
+
 <!--Design Registration Form-->
     <div class="container">
         <div class="mt-5">
