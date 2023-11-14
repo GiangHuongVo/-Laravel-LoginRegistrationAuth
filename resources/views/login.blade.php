@@ -28,7 +28,8 @@
         @csrf
         <div class="mb-3">
                 <label class="form-label">Email address</label>
-                <input type="email" class="form-control" name="email">                
+                <!--<input type="email" class="form-control" name="email"> -->
+                @include('include.email')              
             </div>
 
             <div class="mb-3">
