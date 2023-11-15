@@ -39,4 +39,8 @@ Route::group(['middleware' => 'auth'], function (){
     Route::get('/profile', function (){
         return view('profile');
     })->name('profile');
+
+    Route::get('/dashboard', function (){
+        return view('dashboard');
+    })->name('dashboard');
 });

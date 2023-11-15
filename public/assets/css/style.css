@@ -1,0 +1,21 @@
+.nav-item > a:hover,
+.nav-item.active > a,
+.nav-item.active > a > span
+{
+  color: #ef1919;
+  text-decoration: none;
+}
+
+.active
+{
+    background-color: #ef1919;
+  
+}
+
+.nav-brand-text {
+  font-size: 24px;
+  color: #c2aeae;
+}
+.logo {
+    width: 100px;
+}
